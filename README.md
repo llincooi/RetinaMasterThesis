@@ -8,7 +8,7 @@ There are two experimental setup in my thesis, with and without spatial dependen
 ## In LED_Data
 In this folder, all files are the recording data, comprising RGC spike trains and the stimulus series.
 ## In OLED_Data
-* `fitNGD2LASpara.npz`: Fitting result of the temporal kernel of the model to experimental data. Obtained from the code `CalculateandFit_TK.ipynb`.
+* `fitNGD2LASpara.npz`: Fitting result of the temporal kernel (TK) of the model to experimental data. Obtained from the code `CalculateandFit_TK.ipynb`.
 * `RF_properties.mat`: Size and center of the receptive field of RGCs, obtained from a MATLAB code that was not included herein.
 * `oled_boundary_set.mat`: Some basic feature of the stimulus spatial pattern: dynamic range, size of the moving bar on the OLED display, etc.
 * Other files: Recording data, which comprise RGC spike trains and the stimulus series.
@@ -21,9 +21,10 @@ In this folder, all files are the recording data, comprising RGC spike trains an
 * `time_shifted_PID`: Function for calculate PID (MI).
 ## Code for Figures in the Thesis
 * `MInPI`: Calculate MI and PI (from PID of MI). Associated with Figure 3.7 and 3.8 (a) in the thesis.
-* `STA`: Calculate STA. Associated with Figure 3.11 in the thesis.
-* `STKnSVD`: Calculate spatial temporal kernel (STK) of retina; extract SK from (TK) via SVD.
-* 
+* `STA`: Calculate STA. Associated with Figure 3.11.
+* `STKnSVD`: Calculate spatial temporal kernel (STK) of retina; extract SK from STK via SVD.
+* `CalculateandFit_TK.ipynb`: Calculate the TK of RGCs. Fit the analytic solution of model TK with the TK of RGC. Associated with Figure 3.1.
+* `NGD1D_Model`: This model were built by referring the STK of an mP-RGC. The model kernels are shown in the file. Furthermore, they were used to generate spikes with stimulus similar to that in the experiment. Associated with Figure 3.6 and 3.16.
 
 
 # Link of My Thesis
