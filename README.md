@@ -1,7 +1,7 @@
 # Introduction 簡介
 This repository contain important code used in my master thesis: *"Information Synergy Contributed to Anticipatory Dynamics in Retina"*. About the details of thesis, please see the abstract PDF file or check the link down below. Most of the codes herein are written by me.<br>
 In my study, activities of RGC were recorded in \*.mcd files, which then were converted into MATLAB files. Some basic analysis were also done using MATLAB. I used Python (and Jupyter Notebook) to analyze the experimental data and in simulation. However, in this repository, only code in Python were included.<br>
-此資料庫為我的碩論--*「資訊協同對視網膜預測能力的貢獻」*--研究中主要所使用到的程式碼。關於論文請查閱摘要PDF檔或與使用下方的連結。多數程式碼皆為本人所寫。研究中，MATLAB用於訊號的處理與一些基礎的分析，Python用於分析與模擬，此資料庫僅包含python程式碼。
+此資料庫為我的碩論--*「資訊協同對視網膜預測能力的貢獻」*--研究中主要所使用到的程式碼。關於論文請查閱摘要PDF檔或使用下方的連結。多數程式碼皆為本人所寫。研究中，MATLAB用於訊號的處理與一些基礎的分析，Python用於分析與模擬，此資料庫僅包含python程式碼。
 
 # Experimental Data
 There are two experimental setup in my thesis, with and without spatial dependency. All data herein were pre-processed by MATLAB (and other commercial software).
