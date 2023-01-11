@@ -37,3 +37,5 @@ doi:10.6342/NTU202102163
 Lin, Qi-Rong 林其融  <br>
 Department of Physics, National Taiwan University, Taiwan (ROC); <br>
 Institution of Physics, Academia Sinica, Taiwan (ROC)
+
+* Apache License 2.0  @llincooi
